@@ -48,6 +48,8 @@ const Search = () => {
           className="searchInput"
           type="text"
           value={searchTerm}
+          name="search"
+          placeholder="Search..."
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button type="submit">Search</button>
