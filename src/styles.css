@@ -39,8 +39,8 @@
   border: 5px dotted white;
   margin: 20px;
   padding: 10px;
-  height: 150px;
-  width: 200px;
+  display: inline-block;
+  width: 50vh;
 }
 
 .newsContainer:hover {
@@ -71,18 +71,7 @@
   color: white;
 }
 
-@media screen and (max-width: 600px) {
-  .App {
-    display: inline-block;
-  }
-
-  .newsList {
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-
-  .newsContainer {
-    height: 100px;
-    width: 100px;
-  }
+.newsUrl {
+  text-decoration: none;
+  color: black;
 }
