@@ -3,13 +3,21 @@
   text-align: center;
 }
 
-.newsContainer {
-  background-color: rgb(197, 236, 171);
+.newsList {
+  padding: 20px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.newsTitle {
-  width: 25%;
-  margin: 10px;
+.newsContainer {
+  background-color: rgb(197, 236, 171);
   border: 5px dotted white;
+  margin: 20px;
+  padding: 10px;
+}
+
+.handIcon {
+  display: block;
+  margin: 20px;
 }
