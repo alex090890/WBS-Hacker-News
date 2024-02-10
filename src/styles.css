@@ -1,5 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
 .App {
   font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(
+    45deg,
+    rgb(28, 26, 161),
+    rgb(128, 0, 17),
+    rgb(28, 26, 161),
+    rgb(128, 0, 17),
+    rgb(28, 26, 161),
+    rgb(128, 0, 17)
+  );
+  padding: 30px;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.title {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -15,9 +45,25 @@
   border: 5px dotted white;
   margin: 20px;
   padding: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.newsContainer:hover {
+  border-color: rgb(216, 227, 21);
+  background-color: rgb(10, 167, 67);
+  cursor: pointer;
 }
 
 .handIcon {
   display: block;
   margin: 20px;
+}
+
+.searchForm {
+  padding: 20px;
+}
+
+.searchInput {
+  margin: 10px;
 }
