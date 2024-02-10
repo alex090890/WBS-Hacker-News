@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.newsContainer {
+  background-color: rgb(197, 236, 171);
+  display: flex;
+}
+
+.newsTitle {
+  width: 25%;
+  margin: 10px;
+  border: 5px dotted white;
+}
